@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FRACTOL_H	fractol.h	14;"	d
+HEIGHT	fractol.h	22;"	d
+WIDTH	fractol.h	21;"	d
+addr	fractol.h	/^	char	*addr;$/;"	m	struct:s_data
+angle	fractol.h	/^	double				angle;$/;"	m	struct:s_display
+bits_per_pixel	fractol.h	/^	int		bits_per_pixel;$/;"	m	struct:s_data
+color	put.c	/^int	color(int r, int g, int b)$/;"	f
+colors	utils.c	/^int	colors(t_vars *vars)$/;"	f
+display	fractol.h	/^	t_display	display;$/;"	m	struct:s_vars
+display_init	fractol.c	/^t_display	display_init(void)$/;"	f
+dot_convert	utils.c	/^double	dot_convert(const char *str, int i, double neg)$/;"	f
+endian	fractol.h	/^	int		endian;$/;"	m	struct:s_data
+f	fractol.h	/^	double	(*f)(double, double, t_display);$/;"	m	struct:s_builtin
+fmlx_pixel_put	put.c	/^void	fmlx_pixel_put(t_data *data, int x, int y, int color)$/;"	f
+fractal	fractol.h	/^	double		(*fractal)(double, double, t_display);$/;"	m	struct:s_vars
+ft_atod	utils.c	/^double	ft_atod(const char *str)$/;"	f
+ft_builtin	parse.c	/^t_builtin	*ft_builtin(void)$/;"	f
+ft_close	keyboard.c	/^int	ft_close(int keycode, t_vars *vars)$/;"	f
+ft_color_put	put.c	/^void	ft_color_put(int x, int y, t_vars vars, t_data img)$/;"	f
+ft_cross	mouse.c	/^int	ft_cross(t_vars *vars)$/;"	f
+ft_error	parse.c	/^int	ft_error(void)$/;"	f
+ft_fractal_choose	parse.c	/^void	*ft_fractal_choose(char *str)$/;"	f
+ft_julia_init	fractol.c	/^t_display	ft_julia_init(char *x, char *y)$/;"	f
+ft_new_image	put.c	/^int	ft_new_image(t_vars vars)$/;"	f
+ft_rotation	utils.c	/^void	ft_rotation(double *x, double *y, t_display display)$/;"	f
+ft_strcmp	utils.c	/^int	ft_strcmp(char *s1, char *s2)$/;"	f
+img	fractol.h	/^	void	*img;$/;"	m	struct:s_data
+julia	julia.c	/^double	julia(double x, double y, t_display display)$/;"	f
+julia_x	fractol.h	/^	double				julia_x;$/;"	m	struct:s_display
+julia_y	fractol.h	/^	double				julia_y;$/;"	m	struct:s_display
+key_hook	keyboard.c	/^int	key_hook(int keycode, t_vars *vars)$/;"	f
+line_length	fractol.h	/^	int		line_length;$/;"	m	struct:s_data
+main	fractol.c	/^int	main(int ac, char **av)$/;"	f
+mandelbrot1	mandelbrot.c	/^double	mandelbrot1(double x, double y, t_display display)$/;"	f
+mandelbrot2	mandelbrot.c	/^double	mandelbrot2(double x, double y, t_display display)$/;"	f
+mandelbrot3	mandelbrot.c	/^double	mandelbrot3(double x, double y, t_display display)$/;"	f
+mandelbrot4	mandelbrot.c	/^double	mandelbrot4(double x, double y, t_display display)$/;"	f
+maxiter	fractol.h	/^	int					maxiter;$/;"	m	struct:s_display
+mlx	fractol.h	/^	void		*mlx;$/;"	m	struct:s_vars
+mouse_clicks	mouse.c	/^double	mouse_clicks(int button, int x, int y, t_vars *vars)$/;"	f
+mouse_hook	mouse.c	/^int	mouse_hook(int button, int x, int y, t_vars *vars)$/;"	f
+mouse_scroll	mouse.c	/^double	mouse_scroll(int button, int x, int y, t_vars *vars)$/;"	f
+my_mlx_pixel_put	put.c	/^void	my_mlx_pixel_put(t_data *data, int x, int y, int color)$/;"	f
+offset_x	fractol.h	/^	double				offset_x;$/;"	m	struct:s_display
+offset_y	fractol.h	/^	double				offset_y;$/;"	m	struct:s_display
+s_builtin	fractol.h	/^typedef struct s_builtin {$/;"	s
+s_data	fractol.h	/^typedef struct s_data {$/;"	s
+s_display	fractol.h	/^struct s_display {$/;"	s
+s_dot	fractol.h	/^struct s_dot {$/;"	s
+s_vars	fractol.h	/^typedef struct s_vars {$/;"	s
+shift	fractol.h	/^	int					shift;$/;"	m	struct:s_display
+ship	ship.c	/^double	ship(double x, double y, t_display display)$/;"	f
+str	fractol.h	/^	char	*str;$/;"	m	struct:s_builtin
+t_builtin	fractol.h	/^}			t_builtin;$/;"	t	typeref:struct:s_builtin
+t_data	fractol.h	/^}			t_data;$/;"	t	typeref:struct:s_data
+t_display	fractol.h	/^typedef struct s_display	t_display;$/;"	t	typeref:struct:s_display
+t_dot	fractol.h	/^typedef struct s_dot		t_dot;$/;"	t	typeref:struct:s_dot
+t_ret	fractol.h	/^typedef struct s_ret		t_ret;$/;"	t	typeref:struct:s_ret
+t_vars	fractol.h	/^}				t_vars;$/;"	t	typeref:struct:s_vars
+update_display	keyboard.c	/^void	update_display(t_vars *vars, int keycode)$/;"	f
+win	fractol.h	/^	void		*win;$/;"	m	struct:s_vars
+x	fractol.h	/^	double	x;$/;"	m	struct:s_dot
+y	fractol.h	/^	double	y;$/;"	m	struct:s_dot
+zoom	fractol.h	/^	long unsigned int	zoom;$/;"	m	struct:s_display
