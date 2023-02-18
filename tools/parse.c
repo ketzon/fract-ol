@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 18:07:11 by fbesson           #+#    #+#             */
-/*   Updated: 2023/02/18 18:07:22 by fbesson          ###   ########.fr       */
+/*   Updated: 2023/02/18 18:31:33 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ t_builtin	*ft_builtin(void)
 	return (builtin);
 }
 
-void	*ft_fractal_choose(char *str)
+void	*ft_fractal_choose(char *args)
 {
 	t_builtin	*search;
 	int			i;
@@ -36,7 +36,7 @@ void	*ft_fractal_choose(char *str)
 	i = 0;
 	while (search[i].str)
 	{
-		if (!ft_strcmp(str, search[i].str))
+		if (!ft_strcmp(args, search[i].str))
 			return (search[i].f);
 		i++;
 	}
