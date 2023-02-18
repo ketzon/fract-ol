@@ -18,13 +18,13 @@ SRC =	tools/julia.c		\
 		tools/fractol.c			\
 		tools/put.c \
 
-BONUS =	
-
-
-
-
-
-
+BONUS =	bonus/fractals_bonus.c		\
+		bonus/utils_bonus.c	\
+		bonus/mouse_bonus.c			\
+		bonus/keyboard_bonus.c		\
+		bonus/parse_bonus.c			\
+		bonus/mandelbrot_bonus.c			\
+		bonus/ship_bonus.c		\
 
 OBJ_BONUS = $(BONUS:.c=.o)
 
